@@ -1,5 +1,5 @@
 CREATE TABLE cars (
-    id INT NOT NULL PRIMARY KEY,
+    id BIGSERIAL,
     license_plate VARCHAR NOT NULL,
     color VARCHAR NOT NULL
 );
