@@ -1,0 +1,14 @@
+ALTER TABLE activities DROP COLUMN userid;
+
+ALTER TABLE users DROP COLUMN id;
+ALTER TABLE users ADD COLUMN id BIGSERIAL PRIMARY KEY;
+
+ALTER TABLE activities ADD COLUMN userid BIGINT REFERENCES users(id);
+
+ALTER TABLE activities DROP COLUMN id;
+ALTER TABLE activities ADD COLUMN id BIGSERIAL PRIMARY KEY;
+
+ALTER TABLE activities DROP COLUMN activitytypeid;
+ALTER TABLE activitytypes DROP COLUMN id;
+ALTER TABLE activitytypes ADD COLUMN id BIGSERIAL PRIMARY KEY;
+ALTER TABLE activities ADD COLUMN activitytypeid BIGINT REFERENCES activitytypes(id);
