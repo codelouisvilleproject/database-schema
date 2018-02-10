@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>codelouisville</groupId>
   <artifactId>cl-database</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>database</name>
   
@@ -36,7 +36,7 @@
                 <artifactItem>
                   <groupId>org.flywaydb</groupId>
                   <artifactId>flyway-core</artifactId>
-                  <version>3.2.1</version>
+                  <version>5.0.7</version>
                   <destFileName>flyway.jar</destFileName>
                 </artifactItem>
                 <artifactItem>
