@@ -1,4 +1,4 @@
-package codelouisville.flyway;
+package codelou;
 
 import org.flywaydb.core.Flyway;
 
@@ -8,7 +8,7 @@ class Migrator {
 	flyway.setDataSource(System.getenv("JDBC_DATABASE_URL"),
 		System.getenv("JDBC_DATABASE_USERNAME"),
 		System.getenv("JDBC_DATABASE_PASSWORD"));
-	flyway.setLocations("sql");
+	//flyway.setLocations("sql");
   	flyway.migrate();
   }
 }
