@@ -7,4 +7,3 @@ ALTER TABLE users
     ADD COLUMN state VARCHAR;
     ADD COLUMN zip VARCHAR;
     ADD COLUMN weight SMALLINT;
-
