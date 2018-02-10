@@ -1,1 +1,1 @@
-migrate: java -cp target/classes:target/dependency/* Migrator
+release: java -cp target/classes:target/dependency/* Migrator
