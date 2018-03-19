@@ -1,4 +1,4 @@
-INSERT into activitytypes values("0", "Walk", "Walking");
-INSERT into activitytypes values("1", "Run", "Running");
-INSERT into activitytypes values("2", "Swim", "Swimming");
-INSERT into activitytypes values("3", "Bike", "Biking");
+INSERT into activitytypes (name, description) values ("Run", "Running");
+INSERT into activitytypes (name, description) values ("Walk", "Walking");
+INSERT into activitytypes (name, description) values ("Swim", "Swimming");
+INSERT into activitytypes (name, description) values ("Bike", "Biking");
